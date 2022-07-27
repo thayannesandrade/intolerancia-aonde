@@ -1,9 +1,12 @@
 import ApplicationRoutes from "./routes/ApplicationRoutes"
-import './App.css'
+import { GlobalStyle } from './styles/global'
 
 function App() {
   return (
-    <ApplicationRoutes/>
+    <>
+     <GlobalStyle />
+     <ApplicationRoutes/>
+    </>
   )
 }
 
