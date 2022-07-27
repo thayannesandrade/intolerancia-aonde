@@ -1,7 +1,9 @@
+import Text from "./text.style"
+
 function Text(props) {
 
     return (
-     <p>{props.text}</p>
+     <Text>{props.text}</Text>
     )
   }
   
