@@ -1,7 +1,9 @@
+import Title from "../../components/Title/Title"
+
 function CadastroDeLocais() {
     return (
         <>
-        <h1>Cadastro de Locais</h1>
+        <Title title="Cadastro de Locais"/>
         </>
     )
 }

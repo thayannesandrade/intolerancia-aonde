@@ -1,7 +1,9 @@
+import Title from "../../components/Title/Title"
+
 function ListaDeLocais() {
     return (
         <>
-        <h1>Lista de Locais</h1>
+        <Title title="Lista de Locais"/>
         </>
     )
 }

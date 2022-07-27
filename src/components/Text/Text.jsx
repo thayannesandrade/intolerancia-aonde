@@ -1,9 +1,9 @@
-import Text from "./text.style"
+import Description from "./text.style"
 
 function Text(props) {
 
     return (
-     <Text>{props.text}</Text>
+     <Description>{props.text}</Description>
     )
   }
   
