@@ -1,9 +1,11 @@
+import Container from "./footer.style"
+
 function Footer() {
     return (
         <>
-            <footer>
+            <Container>
                 <p>Feito por Thayanne</p>
-            </footer>
+            </Container>
         </>
     )
 }
