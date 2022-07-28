@@ -1,21 +1,28 @@
 import { Link } from 'react-router-dom'
+import { RiMenu3Fill } from 'react-icons/ri';
+import { Container } from './navbar.style';
 
-function Navbar() {
+import LOGO from '../../assets/logo1.png'
+
+function Navbar({ setNavbarIsVisible }) {
     return(
-        <ul className="menu">
-            <li className="item">
+        <>
+        <Container>
+            <div className='logo'>
+                <img src={LOGO} alt="logo intolerânciaAonde" />
+            </div>
+            <nav className='navbar'>
                 <Link className="link" to="/">Home</Link>
-            </li>
-            <li className="item">
                 <Link className="link" to="/lista-de-locais">Lista de Locais</Link>
-            </li>
-            <li className="item">
                 <Link className='link' to="/cadastro-de-locais">Cadastro de Locais</Link>
-            </li>
-            <li className="item">
-                <Link className='link' to="/sobre">Sobre</Link>
-            </li>
-        </ul>
+                <Link className='link' to="/sobre">Sobre</Link> 
+            </nav>
+
+            <div>
+                <RiMenu3Fill size={45} onClick={() => setNavbarIsVisible(true)} className="mobile"/> 
+            </div>
+        </Container>
+        </>
     )
 }
 

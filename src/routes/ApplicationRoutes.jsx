@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import CadastroDeLocais from '../pages/CadastrodeLocais/CadastroDeLocais'
@@ -6,11 +7,18 @@ import Home from '../pages/Home/Home'
 import Sobre from '../pages/Sobre/Sobre'
 import Navbar from '../components/Navbar/Navbar'
 import Footer from '../components/Footer/Footer'
+import NavbarMobile from '../components/NavbarMobile/NavbarMobile'
 
 function ApplicationRoutes() {
+    const [navbarisVisible, setNavbarIsVisible] = useState(false)
+
     return(
         <BrowserRouter>
-                <Navbar />
+                <NavbarMobile 
+                    navbarisVisible={navbarisVisible}
+                    setNavbarIsVisible={setNavbarIsVisible}
+                />
+                <Navbar setNavbarIsVisible={setNavbarIsVisible}/>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="lista-de-locais" element={<ListaDeLocais />} />

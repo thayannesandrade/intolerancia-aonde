@@ -27,7 +27,7 @@ export const ContainerText = styled.section`
     }
 `
 
-export const ContainerImage = styled.div`
+export const ContainerImage = styled.figure`
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
