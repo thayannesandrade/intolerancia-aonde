@@ -8,8 +8,8 @@ const Container = styled.footer`
     height: 4vh;
     color: #fff;
     font-size: 15px;
-    bottom: 0;
     width: 100%;
+    flex-shrink: 0;
 
 ` 
 export default Container
