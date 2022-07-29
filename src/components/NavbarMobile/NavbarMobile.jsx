@@ -13,7 +13,7 @@ function NavbarMobile({ navbarisVisible, setNavbarIsVisible }) {
     return (
         <>
             <Container isVisible={navbarisVisible}>
-               <IoClose size={45} onClick={() => setNavbarIsVisible(false)}/>
+               <IoClose size={45} color="#fff" onClick={() => setNavbarIsVisible(false)}/>
                 <nav>
                     <Link className="link" to="/">Home</Link>
                     <Link className="link" to="/lista-de-locais">Lista de Locais</Link>

@@ -13,6 +13,7 @@ export const Container = styled.nav`
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
     background: rgb(85,250,184);
     background: linear-gradient(90deg, rgba(85,250,184,0.75) 10%, rgba(173,49,24,0.5998774509803921) 60%);
@@ -40,6 +41,12 @@ export const Container = styled.nav`
         gap: 2rem;
         transform: scale(0.7);
         transition: .7s;
+    }
+
+    nav > a {
+        color: #fff;
+        font-weight: 600;
+        font-size: 20px;
     }
 
     ${({ isVisible }) => isVisible && css`
