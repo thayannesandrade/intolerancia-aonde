@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
             font-size: 87.5%;
         }
     }
+    
 
     body {
         -webkit-font-smoothing: antialiased;
@@ -35,5 +36,4 @@ export const GlobalStyle = createGlobalStyle`
     a { 
         text-decoration: none;
     }
-
 `
