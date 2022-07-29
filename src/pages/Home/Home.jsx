@@ -1,17 +1,29 @@
-import Title from "../../components/Title/Title"
-import Text from "../../components/Text/Text"
-import { Container, ContainerText, ContainerImage } from "./home.style"
-import IMG1 from "../../assets/marcha-contra-intolerancia.jpg"
-import INFOGRAFICO from "../../assets/panorama-das-religiões-no-brasil.png"
+import { SeeLocationButton } from "./home.style";
+
+import Title from "../../components/Title/Title";
+import Text from "../../components/Text/Text";
+
+import { Container, ContainerText, ContainerImage } from "../../styles/containers";
+
+import IMG1 from "../../assets/marcha-contra-intolerancia.jpg";
+import INFOGRAFICO from "../../assets/panorama-das-religiões-no-brasil.png";
+
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+
+    const navigate = useNavigate();
+    const navigateToListOfLocations = () => {
+      navigate('/lista-de-locais');
+    };
+
     return (
         <>
          <Container>
             <Title title="Home"/>
             <ContainerText>
                 <Text text="Lorem ipsum dolor sit amet. Qui possimus accusantium aut molestiae eius quo numquam provident qui voluptas similique. Ea repudiandae rerum aut voluptatem Quis aut obcaecati recusandae in itaque error. Ut earum nemo sit odio eligendi ab facilis dignissimos!" />
-                <button>Consultar Locais</button>
+                <SeeLocationButton onClick={navigateToListOfLocations}>Consultar locais</SeeLocationButton>
             </ContainerText>
 
             <ContainerImage>
@@ -31,7 +43,6 @@ function Home() {
                     <figcaption>Fonte: IBGE 2010.</figcaption>
                 </a>
             </ContainerImage>
-            
          </Container>
         </>
     )
