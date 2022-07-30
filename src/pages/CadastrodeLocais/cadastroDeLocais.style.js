@@ -1,22 +1,5 @@
 import styled from "styled-components";
 
-export const ContainerImage = styled.div`
-    width: 100%;
-    height: 350px;
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 12px 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    img{
-        max-width: 100%;
-        max-height: 100%;
-    }
-`
-
-
 export const FormContainer = styled.section`
     width: 670px;
     background-color: rgba(173, 49, 24, 0.6);
@@ -28,13 +11,13 @@ export const FormContainer = styled.section`
     justify-content: center;
     margin-bottom: 60px;
 
-    .contact__form {
+    .register__form {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
 
-    .contact__input {
+    .register__input {
         height: 48px;
         width: 100%;
         padding: 8px 8px;
@@ -55,7 +38,7 @@ export const FormContainer = styled.section`
         transition: .3s ease-in-out;
     }
 
-    .contact__button {
+    .register__button {
         height: 48px;
         width: 100%;
         outline: none;
@@ -68,13 +51,9 @@ export const FormContainer = styled.section`
         border-radius: 8px;
         cursor: pointer;
         transition: .5s ease-in-out;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
-
-    .contact__button:hover {
+    .register__button:hover {
         filter: brightness(0.9);
     }
 
@@ -89,3 +68,4 @@ export const FormContainer = styled.section`
         box-shadow: 1px 1px 1px #999;
     }
 `
+

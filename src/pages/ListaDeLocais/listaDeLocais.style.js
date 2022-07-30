@@ -8,5 +8,10 @@ export const ContainerCard = styled.div`
     align-items: center;
     justify-content: center;
     padding: 12px 12px;
+
+    @media(min-width: 923px) {
+      margin: 0 auto;
+      max-width: 1120px;
+    }
 `
    

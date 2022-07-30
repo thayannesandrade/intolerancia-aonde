@@ -6,7 +6,7 @@ export const ContainerCard = styled.div`
     justify-content: center;
     align-items: center;
     gap: 30px;
-    background: rgba(173,49,24,0.5);
+    background: rgba(173, 49, 24, 0.6);
     color: #fff;
     text-align: center;
     border-radius: 8px;
@@ -14,6 +14,11 @@ export const ContainerCard = styled.div`
 
     width: 90vw;
     height: 280px;
+
+    @media(min-width: 923px) {
+      width: 100%;
+      height: 320px;
+    }
 
     .card__header > h2 {
       font-family: 'Source Code Pro', monospace !important;

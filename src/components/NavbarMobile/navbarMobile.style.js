@@ -49,6 +49,10 @@ export const Container = styled.nav`
         font-size: 20px;
     }
 
+    nav > a:hover{
+        filter: brightness(0.9);
+    }
+
     ${({ isVisible }) => isVisible && css`
         opacity: 1;
         pointer-events: auto;

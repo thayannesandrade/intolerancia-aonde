@@ -35,6 +35,10 @@ export const Container = styled.header`
         color: #ffff;
     }
 
+    .navbar > a:hover{
+      filter: brightness(0.9);
+    }
+
     .mobile {
         display: none;
     }

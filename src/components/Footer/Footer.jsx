@@ -4,7 +4,7 @@ function Footer() {
     return (
         <>
             <Container>
-                <p>Feito por Thayanne</p>
+                <p>Feito por <a href="https://www.linkedin.com/in/thayanne-andrade/" target="_blank">Thayanne</a></p>
             </Container>
         </>
     )

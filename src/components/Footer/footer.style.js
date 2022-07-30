@@ -5,11 +5,19 @@ const Container = styled.footer`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 4vh;
+    height: 5vh;
     color: #fff;
     font-size: 15px;
     width: 100%;
     flex-shrink: 0;
 
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    @media (min-width: 923px) {
+        font-size: 24px;
+    }
 ` 
 export default Container

@@ -20,10 +20,20 @@ function Home() {
     return (
         <>
          <Container>
-            <Title title="Home"/>
+            <Title title="IntolerânciaAonde"/>
             <ContainerText>
-                <Text text="Lorem ipsum dolor sit amet. Qui possimus accusantium aut molestiae eius quo numquam provident qui voluptas similique. Ea repudiandae rerum aut voluptatem Quis aut obcaecati recusandae in itaque error. Ut earum nemo sit odio eligendi ab facilis dignissimos!" />
+                <Text text="Os casos de intolerância religiosa no Brasil tem aumentado de forma exponencial e, por conta disso se fez necessário, uma forma de tentar manter-se seguro. Com a colaboração da comunidade, aqui você encontra de forma simples os locais aonde aconteceram crimes de intolerância religiosa." />
                 <SeeLocationButton onClick={navigateToListOfLocations}>Consultar locais</SeeLocationButton>
+            </ContainerText>
+        
+            <div 
+                style={{
+                    margin: "100px auto"
+                }}>
+            </div>
+
+            <ContainerText>
+                <Text text="A falta de conhecimento sobre a diversidade cultural e religiosa presente no Brasil, que é fomentada desde a invasão colonizadora a fim de apagar a existência de determinados povos, traz como consequência a perseguição e demonização dos cultos." />
             </ContainerText>
 
             <ContainerImage>
@@ -34,7 +44,11 @@ function Home() {
             </ContainerImage>
 
             <ContainerText>
-                <Text text="Lorem ipsum dolor sit amet. Qui possimus accusantium aut molestiae eius quo numquam provident qui voluptas similique. Ea repudiandae rerum aut voluptatem Quis aut obcaecati recusandae in itaque error. Ut earum nemo sit odio eligendi ab facilis dignissimos!" />
+                <Text text="Desde o Brasil Colônia, as religiões mais perseguidas são as tradições indígenas e as religiões afro-brasileiras. Os colonizadores europeus, numa tentativa de apagar a existência das tradições indígenas e também a prática religiosa trazida pelos escravizados reprimiram estas tradições trazendo a obrigatoriedade da prática da fé que eles professavam - o catolicismo." />
+                <br />
+                <Text text="No código penal de 1890, o espiritismo era considerado crime. Em 1988, o marco para a liberdade de crença se deu a partir da Constituição que dizia que o Brasil é um pais laico e que a liberdade de culto não pode ser violada.  Em 13 de Maio de 1997, foi criada a  Lei nº 9.459 que considera discriminação ou preconceito de raça, cor, etnia e religião crime sob pena de reclusão e pagamento de multa mas, ainda assim, nos dias atuais é expressivo o aumento no número de casos de intolerância religiosa no Brasil." />
+                <br />
+                <Text text="Os últimos dados do Instituto Brasileiro de Geografia e Estatística (IBGE) realizado no ano de 2010, onde foram entrevistadas cerca de 191 milhões de pessoas, das quais aproximadamente 589 mil se declaram de religões consideradas de matriz afro-brasileiras. Porém, podemos estimar que atualmente existe um número maior tendo em vista a defasagem de dados, visto que o último censo foi realizado há 12 anos." />
             </ContainerText>
 
             <ContainerImage>
@@ -43,6 +57,13 @@ function Home() {
                     <figcaption>Fonte: IBGE 2010.</figcaption>
                 </a>
             </ContainerImage>
+
+
+            <ContainerText>
+                <Text text="Além das religiões destacadas no gráfico acima, o censo também identificou outras religiões que são praticadas no pais, sendo: tradições indigenas (com 0,033%), testemunhas de jeová (0,73%), judeus (0,56%), dentre outras." />
+                <br />
+                <Text text="No código penal de 1890, o espiritismo era considerado crime. Em 1988, o marco para a liberdade de crença se deu a partir da Constituição que dizia que o Brasil é um pais laico e que a liberdade de culto não pode ser violada.  Em 13 de Maio de 1997, foi criada a  Lei nº 9.459 que considera discriminação ou preconceito de raça, cor, etnia e religião crime sob pena de reclusão e pagamento de multa mas, ainda assim, nos dias atuais é expressivo o aumento no número de casos de intolerância religiosa no Brasil." />
+            </ContainerText>
          </Container>
         </>
     )
