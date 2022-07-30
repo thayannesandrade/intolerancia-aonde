@@ -35,7 +35,9 @@ function Sobre() {
         <Container>
             <Title title="Sobre"/>
             <ContainerText>
-                <Text text="Lorem ipsum dolor sit amet. Qui possimus accusantium aut molestiae eius quo numquam provident qui voluptas similique. Ea repudiandae rerum aut voluptatem Quis aut obcaecati recusandae in itaque error. Ut earum nemo sit odio eligendi ab facilis dignissimos!"/>
+                <Text text="Aluna da {reprograma} do curso de front-end, 25 anos, do Rio de Janeiro. Sou uma tecnologista entusiasmada, dando os primeiros passos na jornada de desenvolvimento de software."/>
+                <br />
+                <Text text="Este projeto surgiu com o objetivo de ajudar a comunidade pertencente a religiões marginalizadas e incentivar a denúncia de casos de intolerância religosa. Se você tem interesse em colaborar com o projeto, entre em contato através do formulário abaixo, vai ser um prazer. Obrigada :)"></Text>
             </ContainerText>
             <ContainerImage>
                     <img src={CONTACTIMG} alt="svg com uma mulher negra, de cabelos curtos e pretos, de blusa branca, calça preta e bota preta, segurando com a mão direita uma caixa de diálogo e na mão esquerda um balão de confirmação." />

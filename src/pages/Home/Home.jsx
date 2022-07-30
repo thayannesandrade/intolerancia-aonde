@@ -7,6 +7,7 @@ import { Container, ContainerText, ContainerImage } from "../../styles/container
 
 import IMG1 from "../../assets/marcha-contra-intolerancia.jpg";
 import INFOGRAFICO from "../../assets/panorama-das-religiões-no-brasil.png";
+import DENUNCIAS from "../../assets/denuncias.png";
 
 import { useNavigate } from 'react-router-dom';
 
@@ -62,8 +63,15 @@ function Home() {
             <ContainerText>
                 <Text text="Além das religiões destacadas no gráfico acima, o censo também identificou outras religiões que são praticadas no pais, sendo: tradições indigenas (com 0,033%), testemunhas de jeová (0,73%), judeus (0,56%), dentre outras." />
                 <br />
-                <Text text="No código penal de 1890, o espiritismo era considerado crime. Em 1988, o marco para a liberdade de crença se deu a partir da Constituição que dizia que o Brasil é um pais laico e que a liberdade de culto não pode ser violada.  Em 13 de Maio de 1997, foi criada a  Lei nº 9.459 que considera discriminação ou preconceito de raça, cor, etnia e religião crime sob pena de reclusão e pagamento de multa mas, ainda assim, nos dias atuais é expressivo o aumento no número de casos de intolerância religiosa no Brasil." />
+                <Text text="No código penal de 1890, o espiritismo era considerado crime. Em 1988, o marco para a liberdade de crença se deu a partir da Constituição que dizia que o Brasil é um pais laico e que a liberdade de culto não pode ser violada.  Em 13 de Maio de 1997, foi criada a  Lei nº 9.459 que considera discriminação ou preconceito de raça, cor, etnia e religião crime sob pena de reclusão e pagamento de multa mas, ainda assim, nos dias atuais é expressivo o aumento no número de casos de intolerância religiosa no Brasil. Dados do balanço Disque 100 - Ministério da Mulher, Família e Direitos Humanos trás um panorama dos números de denúncia." />
             </ContainerText>
+
+            <ContainerImage>
+                <img src={DENUNCIAS} alt="inforgráfico contendo o valor absoluto de denúncias de casos de intolerância religiosa no Brasil." />
+                <a href="https://www.brasildefato.com.br/2020/01/21/denuncias-de-intolerancia-religiosa-aumentaram-56-no-brasil-em-2019" target="_blank">
+                    <figcaption>Fonte: Balanço Disque 100 - Ministério da Mulher, Família e Direitos Humanos</figcaption>
+                </a>
+            </ContainerImage>
          </Container>
         </>
     )

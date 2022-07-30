@@ -47,7 +47,7 @@ function CadastroDeLocais() {
         <Container>
             <Title title="Cadastro de Locais"/>
             <ContainerText>
-                <Text text="Lorem ipsum dolor sit amet. Qui possimus accusantium aut molestiae eius quo numquam provident qui voluptas similique. Ea repudiandae rerum aut voluptatem Quis aut obcaecati recusandae in itaque error. Ut earum nemo sit odio eligendi ab facilis dignissimos!" />
+                <Text text="Soube de algum caso de intolerância religiosa? Relate aqui! Mas não esqueça de buscar as vias legais também." />
             </ContainerText>
 
             <FormContainer>

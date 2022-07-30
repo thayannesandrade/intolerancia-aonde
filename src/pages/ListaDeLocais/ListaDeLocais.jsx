@@ -48,7 +48,7 @@ function ListaDeLocais() {
         <Container>
             <Title title="Lista de Locais"/>
             <ContainerText>
-                <Text text="Lorem ipsum dolor sit amet. Qui possimus accusantium aut molestiae eius quo numquam provident qui voluptas similique. Ea repudiandae rerum aut voluptatem Quis aut obcaecati recusandae in itaque error. Ut earum nemo sit odio eligendi ab facilis dignissimos!" />
+                <Text text="Confira aqui nesta página os locais que ocorreram casos de intolerância religiosa listados pela comunidade:" />
             </ContainerText>
 
             <ContainerCard>
