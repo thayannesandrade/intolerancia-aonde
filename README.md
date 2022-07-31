@@ -1,7 +1,7 @@
 
 # Intolerância Aonde
 
-É é uma aplicação desenvolvida com `React` e tem como objetivo simplificar o acesso aos locais que aconteceram crimes de intolerância religiosa.
+É uma aplicação desenvolvida com `React` e tem como objetivo simplificar o acesso aos locais que aconteceram crimes de intolerância religiosa.
 
 
 ## 🧠 Visão geral: O que é o Intolerância Aonde?
