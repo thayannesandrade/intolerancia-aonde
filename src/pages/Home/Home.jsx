@@ -26,12 +26,6 @@ function Home() {
                 <Text text="Os casos de intolerância religiosa no Brasil tem aumentado de forma exponencial e, por conta disso se fez necessário, uma forma de tentar manter-se seguro. Com a colaboração da comunidade, aqui você encontra de forma simples os locais aonde aconteceram crimes de intolerância religiosa." />
                 <SeeLocationButton onClick={navigateToListOfLocations}>Consultar locais</SeeLocationButton>
             </ContainerText>
-        
-            <div 
-                style={{
-                    margin: "100px auto"
-                }}>
-            </div>
 
             <ContainerText>
                 <Text text="A falta de conhecimento sobre a diversidade cultural e religiosa presente no Brasil, que é fomentada desde a invasão colonizadora a fim de apagar a existência de determinados povos, traz como consequência a perseguição e demonização dos cultos." />

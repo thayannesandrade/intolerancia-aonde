@@ -11,6 +11,10 @@ export const FormContainer = styled.section`
     justify-content: center;
     margin-bottom: 60px;
 
+    @media (min-width: 320px) and (max-width: 921px) {
+       width: auto;
+    }
+
     .register__form {
         width: 100%;
         display: flex;
@@ -67,5 +71,7 @@ export const FormContainer = styled.section`
         outline: none;
         box-shadow: 1px 1px 1px #999;
     }
+
+    
 `
 

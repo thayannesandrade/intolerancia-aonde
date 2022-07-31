@@ -28,6 +28,10 @@ export const FormContainer = styled.section`
     justify-content: center;
     margin-bottom: 60px;
 
+    @media (min-width: 320px) and (max-width: 921px) {
+       width: auto;
+    }
+
     .contact__form {
         width: 100%;
         display: flex;

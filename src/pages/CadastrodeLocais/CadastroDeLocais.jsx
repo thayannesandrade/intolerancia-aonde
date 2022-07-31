@@ -33,11 +33,13 @@ function CadastroDeLocais() {
                 setLocalidade('');
                 setEstado('');
                 setOcorrido('');
+                alert('Informação inserida com sucesso');
                 setMensagem('Local inserido com sucesso!');
             } catch (err) {
                 console.log(err);
             }
         } else {
+            alert('Por favor, preencha todos os campos');
             setMensagem('Preencha todos os campos!');
         }
     }
